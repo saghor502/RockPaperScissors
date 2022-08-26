@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fTU-zJ-73K" userLabel="main">
-                                <rect key="frame" x="0.0" y="43" width="414" height="820"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jhp-cm-J2t" userLabel="title">
-                                        <rect key="frame" x="82.666666666666671" y="0.0" width="248.66666666666663" height="82"/>
+                                        <rect key="frame" x="82.666666666666671" y="0.0" width="248.66666666666663" height="81.666666666666671"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CwX-2h-YZP">
-                                                <rect key="frame" x="46.666666666666671" y="30.666666666666671" width="155.33333333333331" height="21"/>
+                                                <rect key="frame" x="46.666666666666671" y="30.333333333333329" width="155.33333333333331" height="21"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Rock Paper Scissors">
                                                         <attributes>
@@ -44,10 +44,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ohu-FG-OE2" userLabel="puntaje">
-                                        <rect key="frame" x="0.0" y="82" width="414" height="164"/>
+                                        <rect key="frame" x="0.0" y="81.666666666666671" width="414" height="163.66666666666663"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ge8-Ax-onR" userLabel="puntajeJugador">
-                                                <rect key="frame" x="206.66666666666663" y="0.0" width="201" height="164"/>
+                                                <rect key="frame" x="206.66666666666663" y="0.0" width="201" height="163.66666666666666"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jugador" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FY1-SV-Qzb">
                                                         <rect key="frame" x="48.333333333333343" y="0.0" width="104" height="35"/>
@@ -56,7 +56,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lYa-b0-aqj">
-                                                        <rect key="frame" x="89.666666666666657" y="83" width="21.333333333333329" height="41"/>
+                                                        <rect key="frame" x="89.666666666666657" y="82.999999999999986" width="21.333333333333329" height="40.666666666666671"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -75,16 +75,16 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vt2-5V-pwT" userLabel="puntajeMaquina">
-                                                <rect key="frame" x="8.6666666666666714" y="-10" width="197" height="184"/>
+                                                <rect key="frame" x="8.6666666666666714" y="-10" width="197" height="183.66666666666666"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaF-3c-xn7">
-                                                        <rect key="frame" x="87.666666666666657" y="93" width="21.333333333333329" height="41"/>
+                                                        <rect key="frame" x="87.666666666666657" y="92.666666666666671" width="21.333333333333329" height="41.000000000000014"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maquina" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hQ-7f-KGv">
-                                                        <rect key="frame" x="33" y="-72" width="130.66666666666666" height="184"/>
+                                                        <rect key="frame" x="33" y="-72" width="130.66666666666666" height="183.66666666666666"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -116,14 +116,18 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fGd-OZ-xTF" userLabel="RockPaperScissors">
-                                        <rect key="frame" x="0.0" y="246" width="414" height="215.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="245.33333333333331" width="414" height="215"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CUQ-HI-Tn8" userLabel="Rock">
-                                                <rect key="frame" x="155.33333333333334" y="-16" width="103.33333333333334" height="108"/>
+                                                <rect key="frame" x="155.33333333333334" y="-16.333333333333314" width="103.33333333333334" height="107.66666666666667"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnZ-HE-oky">
-                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="108"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="107.66666666666667"/>
+                                                        <accessibility key="accessibilityConfiguration" identifier="Rock"/>
                                                         <state key="normal" title="Button" image="rock"/>
+                                                        <connections>
+                                                            <action selector="Rock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JyH-jG-9NC"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -135,13 +139,17 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7mv-fh-ojk" userLabel="Paper">
-                                                <rect key="frame" x="5.3333333333333357" y="124" width="103.33333333333331" height="108"/>
+                                                <rect key="frame" x="5.3333333333333357" y="123.66666666666669" width="103.33333333333331" height="107.66666666666669"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfd-Z8-NkK">
-                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="108"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="107.66666666666667"/>
+                                                        <accessibility key="accessibilityConfiguration" identifier="Paper"/>
                                                         <state key="normal" title="Button" image="paper">
                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="Paper:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IeY-8Y-vap"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -153,11 +161,15 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lyf-z0-Tu8" userLabel="Scissors">
-                                                <rect key="frame" x="305.33333333333331" y="124" width="103.33333333333331" height="108"/>
+                                                <rect key="frame" x="305.33333333333331" y="123.66666666666669" width="103.33333333333331" height="107.66666666666669"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IyJ-2I-GUR">
-                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="108"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="107.66666666666667"/>
+                                                        <accessibility key="accessibilityConfiguration" identifier="Scissors"/>
                                                         <state key="normal" title="Button" image="scissors"/>
+                                                        <connections>
+                                                            <action selector="Scissors:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pkq-R2-ZVu"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -186,7 +198,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eHT-V6-NUm" userLabel="Resultados">
-                                        <rect key="frame" x="0.0" y="461.66666666666669" width="414" height="128.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="460.33333333333326" width="414" height="128"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El jugador escogío:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jNv-1A-Sw4">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="25.666666666666668"/>
@@ -206,21 +218,52 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9U-qh-FHu">
+                                                <rect key="frame" x="207" y="0.0" width="414" height="25.666666666666668"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x4n-m0-Yrk">
+                                                <rect key="frame" x="207" y="36.000000000000057" width="9" height="21"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="selectM"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L1d-OI-BG6">
+                                                <rect key="frame" x="207" y="71.666666666666686" width="9" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="hDU-fG-ABk" firstAttribute="height" secondItem="eHT-V6-NUm" secondAttribute="height" multiplier="0.2" id="8xp-VY-Gpv"/>
                                             <constraint firstItem="aEr-PM-g0U" firstAttribute="centerX" secondItem="eHT-V6-NUm" secondAttribute="centerX" id="AgM-Lc-rge"/>
+                                            <constraint firstItem="L1d-OI-BG6" firstAttribute="leading" secondItem="aEr-PM-g0U" secondAttribute="centerX" id="BBy-1W-PdJ"/>
                                             <constraint firstItem="jNv-1A-Sw4" firstAttribute="height" secondItem="eHT-V6-NUm" secondAttribute="height" multiplier="0.2" id="CnX-4w-J75"/>
+                                            <constraint firstItem="x4n-m0-Yrk" firstAttribute="width" secondItem="hDU-fG-ABk" secondAttribute="width" multiplier="0.0217391" id="GHf-HE-FWJ"/>
+                                            <constraint firstItem="x4n-m0-Yrk" firstAttribute="centerY" secondItem="hDU-fG-ABk" secondAttribute="centerY" id="GZA-xt-IhZ"/>
+                                            <constraint firstItem="i9U-qh-FHu" firstAttribute="leading" secondItem="jNv-1A-Sw4" secondAttribute="centerX" id="JMr-3F-OuK"/>
+                                            <constraint firstItem="i9U-qh-FHu" firstAttribute="width" secondItem="jNv-1A-Sw4" secondAttribute="width" id="Kyt-QI-Dwn"/>
                                             <constraint firstItem="aEr-PM-g0U" firstAttribute="width" secondItem="eHT-V6-NUm" secondAttribute="width" id="P3L-53-h9E"/>
                                             <constraint firstItem="hDU-fG-ABk" firstAttribute="centerX" secondItem="eHT-V6-NUm" secondAttribute="centerX" id="RII-ps-KCD"/>
                                             <constraint firstItem="jNv-1A-Sw4" firstAttribute="width" secondItem="eHT-V6-NUm" secondAttribute="width" id="SiL-Fi-agp"/>
+                                            <constraint firstItem="i9U-qh-FHu" firstAttribute="centerY" secondItem="jNv-1A-Sw4" secondAttribute="centerY" id="WQU-MD-0Lv"/>
                                             <constraint firstItem="aEr-PM-g0U" firstAttribute="height" secondItem="eHT-V6-NUm" secondAttribute="height" multiplier="0.2" id="YgP-GA-fBx"/>
+                                            <constraint firstItem="L1d-OI-BG6" firstAttribute="width" secondItem="aEr-PM-g0U" secondAttribute="width" multiplier="0.0217391" id="aGr-6I-A7P"/>
                                             <constraint firstItem="jNv-1A-Sw4" firstAttribute="top" secondItem="eHT-V6-NUm" secondAttribute="top" id="cJp-vu-lDf"/>
+                                            <constraint firstItem="L1d-OI-BG6" firstAttribute="height" secondItem="aEr-PM-g0U" secondAttribute="height" multiplier="0.818182" id="dA0-mG-g4P"/>
+                                            <constraint firstItem="x4n-m0-Yrk" firstAttribute="leading" secondItem="hDU-fG-ABk" secondAttribute="centerX" id="dzt-6P-yvK"/>
+                                            <constraint firstItem="x4n-m0-Yrk" firstAttribute="height" secondItem="hDU-fG-ABk" secondAttribute="height" multiplier="0.818182" id="fhv-Q2-wAC"/>
                                             <constraint firstItem="hDU-fG-ABk" firstAttribute="width" secondItem="eHT-V6-NUm" secondAttribute="width" id="flT-f5-ghM"/>
                                             <constraint firstItem="jNv-1A-Sw4" firstAttribute="centerX" secondItem="eHT-V6-NUm" secondAttribute="centerX" id="gdV-P5-QZn"/>
                                             <constraint firstItem="hDU-fG-ABk" firstAttribute="top" secondItem="jNv-1A-Sw4" secondAttribute="bottom" constant="8" id="gst-1H-1Aj"/>
                                             <constraint firstItem="aEr-PM-g0U" firstAttribute="top" secondItem="hDU-fG-ABk" secondAttribute="bottom" constant="10" id="nlC-NC-3Kx"/>
+                                            <constraint firstItem="L1d-OI-BG6" firstAttribute="centerY" secondItem="aEr-PM-g0U" secondAttribute="centerY" id="o6z-AW-TUs"/>
+                                            <constraint firstItem="i9U-qh-FHu" firstAttribute="height" secondItem="jNv-1A-Sw4" secondAttribute="height" id="rbb-M5-Kau"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -250,10 +293,17 @@
                         <constraints>
                             <constraint firstItem="fTU-zJ-73K" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="HrO-hr-WoN"/>
                             <constraint firstItem="fTU-zJ-73K" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="Q48-6Z-U0d"/>
-                            <constraint firstItem="fTU-zJ-73K" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="1.00244" id="ZKC-nA-HkJ"/>
+                            <constraint firstItem="fTU-zJ-73K" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" id="ZKC-nA-HkJ"/>
                             <constraint firstItem="fTU-zJ-73K" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="iTC-st-xy8"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Ganador" destination="L1d-OI-BG6" id="nWD-lD-jlQ"/>
+                        <outlet property="JugadorScore" destination="lYa-b0-aqj" id="mbi-6a-rdD"/>
+                        <outlet property="MaquinaScore" destination="kaF-3c-xn7" id="3Ir-RX-WRR"/>
+                        <outlet property="jugadorEscogio" destination="i9U-qh-FHu" id="SvI-M3-Zoo"/>
+                        <outlet property="maquinaEscogio" destination="x4n-m0-Yrk" id="EYl-cx-POU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

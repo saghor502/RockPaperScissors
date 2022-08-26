@@ -20,7 +20,7 @@ public class resultado{
         self.desicionJ = desicionJ
     }
     
-    func darResultado(desicionM : RPS, desicionJ : RPS)->String{
+    func darResultado(desicionJ : RPS)->String{
         let desicionM = maquina().randomElement()
         if(desicionM == RPS.Rock){
             if(self.desicionJ == RPS.Rock){

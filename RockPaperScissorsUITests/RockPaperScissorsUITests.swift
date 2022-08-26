@@ -7,7 +7,7 @@
 
 import XCTest
 
-class RockPaperScissorsUITests: XCTestCase {
+ class RockPaperScissorsUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -30,7 +30,69 @@ class RockPaperScissorsUITests: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
+    
+    func testIncrementarMarcador() throws{
+        let app = XCUIApplication()
+        app.launch()
+    }
 
+    func testPiedra() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        //GIVEN
+        let prueba = app.buttons["Rock"]
+        
+        //WHEN
+        prueba.tap()
+        
+        //THEN
+        let leleCOMPU = app.staticTexts["selectM"]
+        XCTAssertNotEqual(leleCOMPU.label, "")
+        
+        
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+
+    func testPapel() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        //GIVEN
+        let prueba = app.buttons["Paper"]
+        
+        //WHEN
+        prueba.tap()
+        
+        //THEN
+        let leleCOMPU = app.staticTexts["selectM"]
+        XCTAssertNotEqual(leleCOMPU.label, "")
+        
+        
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+    
+    func testTijeras() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        //GIVEN
+        let prueba = app.buttons["Scissors"]
+        
+        //WHEN
+        prueba.tap()
+        
+        //THEN
+        let leleCOMPU = app.staticTexts["selectM"]
+        XCTAssertNotEqual(leleCOMPU.label, "")
+        
+        
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+    
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
             // This measures how long it takes to launch your application.
